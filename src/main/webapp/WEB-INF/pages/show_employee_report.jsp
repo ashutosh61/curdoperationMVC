@@ -2,7 +2,7 @@
 <%@ page isELIgnored = "false" %> 
 <c:choose>
 
-<c:when test="${empty lEmp}">
+<c:when test="${!empty lEmp}">
 <h1 style="color:red;text-align:center">Employee report </h1>
 <h2 style="color:red;text-align:center">${msg}</h2>
 <table border="1" align="center" bgcolor="cyan">
